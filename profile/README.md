@@ -11,8 +11,7 @@
 
 <p align="center">
   <a href="https://ashlr.ai"><img src="https://img.shields.io/badge/🌐_ashlr.ai-1A2B3C?style=for-the-badge" alt="ashlr.ai"></a>
-  <a href="https://x.com/ashlar_ai"><img src="https://img.shields.io/badge/𝕏-000000?style=for-the-badge&logoColor=white" alt="X / Twitter"></a>
-  <a href="https://linkedin.com/company/ashlar-ai"><img src="https://img.shields.io/badge/in-0A66C2?style=for-the-badge&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://linkedin.com/company/ashlrai"><img src="https://img.shields.io/badge/in-0A66C2?style=for-the-badge&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:hello@ashlr.ai"><img src="https://img.shields.io/badge/✉_hello-2563EB?style=for-the-badge" alt="email"></a>
   <a href="https://github.com/masonwyatt23"><img src="https://img.shields.io/badge/👤_founder-6B7280?style=for-the-badge" alt="founder"></a>
 </p>
