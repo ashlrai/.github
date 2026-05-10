@@ -134,45 +134,40 @@
 
 <table>
   <tr>
-    <td width="33%" valign="top" align="left">
-      <p>
-        <img src="./assets/logos/measurably-logo.svg" width="40" align="left" hspace="6">
-        <b><a href="https://measurably.dev">measurably.dev</a></b><br>
-        <sub>Strava for AI usage — track &amp; improve your AI effectiveness.</sub>
-      </p>
+    <td width="33%" align="center" valign="top">
+      <a href="https://measurably.dev"><img src="./assets/screenshots/measurably.png" width="100%" alt="Measurably"></a><br>
+      <b><a href="https://measurably.dev">Measurably</a></b><br>
+      <sub>Strava for AI usage — track &amp; improve your effectiveness.</sub><br>
+      <code>measurably.dev</code>
     </td>
-    <td width="33%" valign="top" align="left">
-      <p>
-        <img src="./assets/logos/ashlar-mark.png" width="40" align="left" hspace="6">
-        <b><a href="https://bi.ashlr.ai">bi.ashlr.ai</a></b><br>
-        <sub>Ashlr BI — smarter business decisions, less chaos.</sub>
-      </p>
+    <td width="33%" align="center" valign="top">
+      <a href="https://bi.ashlr.ai"><img src="./assets/screenshots/bi.png" width="100%" alt="Ashlr BI"></a><br>
+      <b><a href="https://bi.ashlr.ai">Ashlr BI</a></b><br>
+      <sub>Expert advice without the consulting price.</sub><br>
+      <code>bi.ashlr.ai</code>
     </td>
-    <td width="33%" valign="top" align="left">
-      <p>
-        <img src="./assets/logos/triage-logo.png" width="40" align="left" hspace="6">
-        <b><a href="https://trytriage.ai">trytriage.ai</a></b><br>
-        <sub>AI email copilot for insurance agencies. Inbox, sorted.</sub>
-      </p>
+    <td width="33%" align="center" valign="top">
+      <a href="https://trytriage.ai"><img src="./assets/screenshots/triage.png" width="100%" alt="Triage"></a><br>
+      <b><a href="https://trytriage.ai">Triage</a></b><br>
+      <sub>Your inbox, organized. Your responses, drafted.</sub><br>
+      <code>trytriage.ai</code>
     </td>
   </tr>
   <tr>
-    <td width="33%" valign="top" align="left">
-      <p>
-        <img src="./assets/logos/koala-logo.png" width="40" align="left" hspace="6">
-        <b><a href="https://trykoala.ai">trykoala.ai</a></b><br>
-        <sub>Agentic personal finance — your money, understood.</sub>
-      </p>
+    <td width="33%" align="center" valign="top">
+      <a href="https://trykoala.ai"><img src="./assets/screenshots/koala.png" width="100%" alt="Koala Finance"></a><br>
+      <b><a href="https://trykoala.ai">Koala</a></b><br>
+      <sub>Agentic personal finance — your money, understood.</sub><br>
+      <code>trykoala.ai</code>
     </td>
-    <td width="33%" valign="top" align="left">
-      <p>
-        <img src="./assets/logos/probe-logo.svg" width="40" align="left" hspace="6">
-        <b><a href="https://tryprobe.io">tryprobe.io</a></b><br>
-        <sub>Probe AI — deep research platform for high-stakes decisions.</sub>
-      </p>
+    <td width="33%" align="center" valign="top">
+      <a href="https://tryprobe.io"><img src="./assets/screenshots/probe.png" width="100%" alt="Probe AI"></a><br>
+      <b><a href="https://tryprobe.io">Probe</a></b><br>
+      <sub>Know more than everyone else in the room. AI deep research.</sub><br>
+      <code>tryprobe.io</code>
     </td>
-    <td width="33%" valign="top" align="center">
-      <br>
+    <td width="33%" align="center" valign="middle">
+      <br><br><br>
       <a href="https://ashlr.ai">
         <b>see them all →</b>
       </a>
@@ -189,24 +184,49 @@
 <table>
   <tr>
     <td width="25%" align="center" valign="top">
-      <a href="https://yeuniverse.com"><h3>🎤<br>Yeuniverse</h3></a>
-      <sub>Kanye, every era.</sub><br>
+      <a href="https://yeuniverse.com"><img src="./assets/screenshots/yeuniverse.png" width="100%" alt="Yeuniverse"></a><br>
+      <b><a href="https://yeuniverse.com">Yeuniverse</a></b><br>
+      <sub>Every Kanye era, sample &amp; connection.</sub><br>
       <code>yeuniverse.com</code>
     </td>
     <td width="25%" align="center" valign="top">
-      <a href="https://swiftiepedia.com"><h3>✨<br>Swiftiepedia</h3></a>
-      <sub>Every Taylor Swift easter egg.</sub><br>
+      <a href="https://swiftiepedia.com"><img src="./assets/screenshots/swiftiepedia.png" width="100%" alt="Swiftiepedia"></a><br>
+      <b><a href="https://swiftiepedia.com">Swiftiepedia</a></b><br>
+      <sub>Every Taylor album, lyric &amp; story.</sub><br>
       <code>swiftiepedia.com</code>
     </td>
     <td width="25%" align="center" valign="top">
-      <a href="https://dontoliverse.com"><h3>🌵<br>Dontoliverse</h3></a>
-      <sub>Every album &amp; collaborator.</sub><br>
+      <a href="https://dontoliverse.com"><img src="./assets/screenshots/dontoliverse.png" width="100%" alt="Dontoliverse"></a><br>
+      <b><a href="https://dontoliverse.com">Dontoliverse</a></b><br>
+      <sub>Every album &amp; Cactus Jack thread.</sub><br>
       <code>dontoliverse.com</code>
     </td>
     <td width="25%" align="center" valign="top">
-      <a href="https://elon.ashlr.ai"><h3>🚀<br>Elon-verse</h3></a>
-      <sub>Every company &amp; tweet.</sub><br>
+      <a href="https://elon.ashlr.ai"><img src="./assets/screenshots/elon.png" width="100%" alt="First Principles"></a><br>
+      <b><a href="https://elon.ashlr.ai">First Principles</a></b><br>
+      <sub>Every company, rocket &amp; quote.</sub><br>
       <code>elon.ashlr.ai</code>
+    </td>
+  </tr>
+</table>
+
+---
+
+<h2 align="center">🎲 Other Projects</h2>
+
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://chad-optimizer.vercel.app"><img src="./assets/screenshots/chad.png" width="100%" alt="Chad Optimizer"></a><br>
+      <b><a href="https://chad-optimizer.vercel.app">Chad Optimizer</a></b><br>
+      <sub>Arena Breakout Infinite full-kit loadout optimizer. Stop getting Timmy'd.</sub><br>
+      <code>chad.ashlr.ai</code>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://ashlr-golf-os.vercel.app"><img src="./assets/screenshots/golf.png" width="100%" alt="Ashlr Golf OS"></a><br>
+      <b><a href="https://ashlr-golf-os.vercel.app">Ashlr Golf OS</a></b><br>
+      <sub>The operating system every country club has been waiting for.</sub><br>
+      <code>golf.ashlr.ai</code>
     </td>
   </tr>
 </table>
