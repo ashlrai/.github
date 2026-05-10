@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Ashlr AI — Digital Masonry" width="100%">
+  <img src="./assets/banner.svg" alt="AshlrAI — Digital Masonry" width="100%">
 </p>
 
-<h1 align="center">Ashlr AI</h1>
+<h1 align="center">AshlrAI</h1>
 
 <p align="center">
   <b>AI-native developer tools and vertical AI products.</b><br>
