@@ -11,7 +11,9 @@
 
 <p align="center">
   <a href="https://ashlr.ai"><img src="https://img.shields.io/badge/🌐_ashlr.ai-1A2B3C?style=for-the-badge" alt="ashlr.ai"></a>
-  <a href="mailto:hello@ashlr.ai"><img src="https://img.shields.io/badge/✉_hello@ashlr.ai-2563EB?style=for-the-badge" alt="email"></a>
+  <a href="https://x.com/ashlar_ai"><img src="https://img.shields.io/badge/𝕏-000000?style=for-the-badge&logoColor=white" alt="X / Twitter"></a>
+  <a href="https://linkedin.com/company/ashlar-ai"><img src="https://img.shields.io/badge/in-0A66C2?style=for-the-badge&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:hello@ashlr.ai"><img src="https://img.shields.io/badge/✉_hello-2563EB?style=for-the-badge" alt="email"></a>
   <a href="https://github.com/masonwyatt23"><img src="https://img.shields.io/badge/👤_founder-6B7280?style=for-the-badge" alt="founder"></a>
 </p>
 
@@ -25,7 +27,7 @@
   <tr>
     <td width="33%" valign="top" align="left">
       <p>
-        <a href="https://github.com/ashlrai/ashlrcode"><img src="./assets/logos/ashlar-mark.png" width="40" align="left" hspace="6"></a>
+        <a href="https://github.com/ashlrai/ashlrcode"><img src="./assets/logos/ashlrcode-logo.svg" width="40" align="left" hspace="6"></a>
         <b><a href="https://github.com/ashlrai/ashlrcode">ashlrcode</a></b><br>
         <sub>Multi-provider AI coding agent for the terminal.</sub>
       </p>
@@ -51,7 +53,7 @@
   <tr>
     <td width="33%" valign="top" align="left">
       <p>
-        <a href="https://github.com/ashlrai/ashlr-stack"><img src="./assets/logos/ashlar-mark.png" width="40" align="left" hspace="6"></a>
+        <a href="https://github.com/ashlrai/ashlr-stack"><img src="./assets/logos/stack-logo.svg" width="40" align="left" hspace="6"></a>
         <b><a href="https://github.com/ashlrai/ashlr-stack">ashlr-stack</a></b><br>
         <sub>Provision, wire &amp; operate your entire dev stack with one command.</sub>
       </p>
@@ -67,7 +69,7 @@
     </td>
     <td width="33%" valign="top" align="left">
       <p>
-        <a href="https://github.com/ashlrai/ashlr-pulse"><img src="./assets/logos/ashlar-mark.png" width="40" align="left" hspace="6"></a>
+        <a href="https://github.com/ashlrai/ashlr-pulse"><img src="./assets/logos/pulse-logo.svg" width="40" align="left" hspace="6"></a>
         <b><a href="https://github.com/ashlrai/ashlr-pulse">ashlr-pulse</a></b><br>
         <sub>Mission control for agentic-engineering teams.</sub>
       </p>
@@ -85,7 +87,7 @@
     </td>
     <td width="33%" valign="top" align="left">
       <p>
-        <a href="https://github.com/ashlrai/idle"><img src="./assets/logos/ashlar-mark.png" width="40" align="left" hspace="6"></a>
+        <a href="https://github.com/ashlrai/idle"><img src="./assets/logos/idle-logo.svg" width="40" align="left" hspace="6"></a>
         <b><a href="https://github.com/ashlrai/idle">idle</a></b><br>
         <sub>DePIN orchestrator menu-bar app for macOS passive earnings.</sub>
       </p>
@@ -103,14 +105,14 @@
   <tr>
     <td width="33%" valign="top" align="left">
       <p>
-        <a href="https://github.com/ashlrai/ashlr-workbench"><img src="./assets/logos/ashlar-mark.png" width="40" align="left" hspace="6"></a>
+        <a href="https://github.com/ashlrai/ashlr-workbench"><img src="./assets/logos/workbench-logo.svg" width="40" align="left" hspace="6"></a>
         <b><a href="https://github.com/ashlrai/ashlr-workbench">ashlr-workbench</a></b><br>
         <sub>Local agent workbench — OpenHands + Goose + Aider + ashlrcode.</sub>
       </p>
     </td>
     <td width="33%" valign="top" align="left">
       <p>
-        <a href="https://github.com/ashlrai/ashlr-core-efficiency"><img src="./assets/logos/ashlar-mark.png" width="40" align="left" hspace="6"></a>
+        <a href="https://github.com/ashlrai/ashlr-core-efficiency"><img src="./assets/logos/core-efficiency-logo.svg" width="40" align="left" hspace="6"></a>
         <b><a href="https://github.com/ashlrai/ashlr-core-efficiency">core-efficiency</a></b><br>
         <sub>Token-efficiency primitives that power <code>ashlr-plugin</code>.</sub>
       </p>
@@ -237,7 +239,12 @@
 
 <p align="center">
   Founded January 2026. Headquartered in Virginia, USA. <br>
-  Built by <a href="https://github.com/masonwyatt23"><b>Mason Wyatt</b></a> (CEO) and a small, focused team.
+  Built by <a href="https://github.com/masonwyatt23"><b>Mason Wyatt</b></a> (CEO), <b>Mason Scofield</b>, and <b>Evan Deloria</b>.
+</p>
+
+<p align="center">
+  <a href="mailto:hello@ashlr.ai?subject=Joining%20Ashlr%20AI"><img src="https://img.shields.io/badge/🚀_we're_hiring-2563EB?style=for-the-badge" alt="We're hiring"></a>
+  <a href="mailto:hello@ashlr.ai?subject=Partnership"><img src="https://img.shields.io/badge/🤝_partner_with_us-1A2B3C?style=for-the-badge" alt="Partner with us"></a>
 </p>
 
 <p align="center">
