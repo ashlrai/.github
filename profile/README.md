@@ -217,14 +217,14 @@
 <table>
   <tr>
     <td width="50%" align="center" valign="top">
-      <a href="https://chad-optimizer.vercel.app"><img src="./assets/screenshots/chad.png" width="100%" alt="Chad Optimizer"></a><br>
-      <b><a href="https://chad-optimizer.vercel.app">Chad Optimizer</a></b><br>
+      <a href="https://chad.ashlr.ai"><img src="./assets/screenshots/chad.png" width="100%" alt="Chad Optimizer"></a><br>
+      <b><a href="https://chad.ashlr.ai">Chad Optimizer</a></b><br>
       <sub>Arena Breakout Infinite full-kit loadout optimizer. Stop getting Timmy'd.</sub><br>
       <code>chad.ashlr.ai</code>
     </td>
     <td width="50%" align="center" valign="top">
-      <a href="https://ashlr-golf-os.vercel.app"><img src="./assets/screenshots/golf.png" width="100%" alt="Ashlr Golf OS"></a><br>
-      <b><a href="https://ashlr-golf-os.vercel.app">Ashlr Golf OS</a></b><br>
+      <a href="https://golf.ashlr.ai"><img src="./assets/screenshots/golf.png" width="100%" alt="Ashlr Golf OS"></a><br>
+      <b><a href="https://golf.ashlr.ai">Ashlr Golf OS</a></b><br>
       <sub>The operating system every country club has been waiting for.</sub><br>
       <code>golf.ashlr.ai</code>
     </td>
