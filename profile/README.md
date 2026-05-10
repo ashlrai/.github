@@ -238,7 +238,7 @@
 
 <p align="center">
   Founded January 2026. Headquartered in Virginia, USA. <br>
-  Built by <a href="https://github.com/masonwyatt23"><b>Mason Wyatt</b></a> (CEO), <b>Mason Scofield</b>, and <b>Evan Deloria</b>.
+  Built by <a href="https://github.com/masonwyatt23"><b>Mason Wyatt</b></a> (CEO), <a href="https://github.com/masonstations"><b>Mason Scofield</b></a>, and <b>Evan Deloria</b>.
 </p>
 
 <p align="center">
