@@ -202,11 +202,19 @@
       <sub>Every album &amp; Cactus Jack thread.</sub><br>
       <code>dontoliverse.com</code>
     </td>
+  </tr>
+  <tr>
     <td width="25%" align="center" valign="top">
       <a href="https://elon.ashlr.ai"><img src="./assets/screenshots/elon.png" width="100%" alt="First Principles"></a><br>
       <b><a href="https://elon.ashlr.ai">First Principles</a></b><br>
       <sub>Every company, rocket &amp; quote.</sub><br>
       <code>elon.ashlr.ai</code>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <a href="https://drake.ashlr.ai"><img src="./assets/screenshots/drake.png" width="100%" alt="Drake Universe"></a><br>
+      <b><a href="https://drake.ashlr.ai">Drake Universe</a></b><br>
+      <sub>Every Drake album, era &amp; OVO thread.</sub><br>
+      <code>drake.ashlr.ai</code>
     </td>
   </tr>
 </table>
@@ -217,17 +225,37 @@
 
 <table>
   <tr>
-    <td width="50%" align="center" valign="top">
+    <td width="33%" align="center" valign="top">
       <a href="https://chad.ashlr.ai"><img src="./assets/screenshots/chad.png" width="100%" alt="Chad Optimizer"></a><br>
       <b><a href="https://chad.ashlr.ai">Chad Optimizer</a></b><br>
       <sub>Arena Breakout Infinite full-kit loadout optimizer. Stop getting Timmy'd.</sub><br>
       <code>chad.ashlr.ai</code>
     </td>
-    <td width="50%" align="center" valign="top">
+    <td width="33%" align="center" valign="top">
       <a href="https://golf.ashlr.ai"><img src="./assets/screenshots/golf.png" width="100%" alt="Ashlr Golf OS"></a><br>
       <b><a href="https://golf.ashlr.ai">Ashlr Golf OS</a></b><br>
       <sub>The operating system every country club has been waiting for.</sub><br>
       <code>golf.ashlr.ai</code>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <a href="https://pellucid.ashlr.ai"><img src="./assets/screenshots/pellucid.png" width="100%" alt="Pellucid"></a><br>
+      <b><a href="https://pellucid.ashlr.ai">Pellucid</a></b><br>
+      <sub>The clarity layer for high-stakes writing — make ambiguity visible.</sub><br>
+      <code>pellucid.ashlr.ai</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <a href="https://timeline.ashlr.ai"><img src="./assets/screenshots/timeline.png" width="100%" alt="Ashlr Timeline"></a><br>
+      <b><a href="https://timeline.ashlr.ai">Ashlr Timeline</a></b><br>
+      <sub>Your company's memory, made spatial. Meetings, decisions &amp; risk in 3D.</sub><br>
+      <code>timeline.ashlr.ai</code>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <a href="https://stargaze.ashlr.ai"><img src="./assets/screenshots/stargaze.png" width="100%" alt="Stargaze"></a><br>
+      <b><a href="https://stargaze.ashlr.ai">Stargaze</a></b><br>
+      <sub>Tinder for indie GitHub projects — swipe right to star &amp; back makers.</sub><br>
+      <code>stargaze.ashlr.ai</code>
     </td>
   </tr>
 </table>
