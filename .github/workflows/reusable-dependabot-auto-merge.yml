@@ -1,0 +1,33 @@
+name: Reusable Dependabot Auto-Merge
+
+# Centralized Dependabot auto-merge shared across ashlrai org repos.
+# Callers: see https://github.com/ashlrai/.github
+#
+# Fix vs. the old per-repo template:
+#   - Removed `gh pr review --approve` (GitHub Actions is not permitted to
+#     approve PRs, which failed every run). Native auto-merge needs no approval.
+#   - Requires the calling repo to have "Allow auto-merge" enabled
+#     (gh api -X PATCH repos/<owner>/<repo> -f allow_auto_merge=true).
+
+on:
+  workflow_call:
+
+jobs:
+  auto-merge:
+    if: github.actor == 'dependabot[bot]'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Fetch Dependabot metadata
+        id: metadata
+        uses: dependabot/fetch-metadata@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Enable auto-merge for minor/patch updates
+        if: steps.metadata.outputs.update-type != 'version-update:semver-major'
+        run: gh pr merge --auto --squash "$PR_URL"
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,115 @@
+name: Reusable Security
+
+# Centralized security scan shared across ashlrai org repos.
+# Callers: see https://github.com/ashlrai/.github
+#
+# Fixes baked in vs. the old per-repo template:
+#   - gitleaks runs via the open-source CLI (no paid GITLEAKS_LICENSE).
+#   - Semgrep no longer uses --error (reports findings, doesn't red the run).
+#   - CodeQL + SARIF code-scanning upload run ONLY on public repos
+#     (GitHub Advanced Security is free on public, paid on private).
+#   - Dependency audit is non-blocking and auto-detects the package manager.
+
+on:
+  workflow_call:
+    inputs:
+      public:
+        description: "True if the calling repo is public (enables CodeQL + SARIF code-scanning upload)."
+        type: boolean
+        default: false
+
+jobs:
+  dependency-audit:
+    name: Dependency Audit
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Audit dependencies (non-blocking)
+        run: |
+          if [ -f bun.lockb ] || [ -f bun.lock ]; then
+            echo "Bun lockfile detected — 'bun pm audit' not yet supported; skipping."
+          elif [ -f pnpm-lock.yaml ]; then
+            corepack enable
+            pnpm audit --audit-level=high || true
+          elif [ -f package-lock.json ] || [ -f npm-shrinkwrap.json ]; then
+            npm audit --audit-level=high || true
+          elif [ -f yarn.lock ]; then
+            corepack enable
+            yarn npm audit --severity high || true
+          else
+            echo "No supported lockfile found; skipping audit."
+          fi
+
+  secret-detection:
+    name: Secret Detection
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Gitleaks (open-source CLI, no license required)
+        run: |
+          docker run --rm -v "$PWD:/repo" ghcr.io/gitleaks/gitleaks:latest \
+            detect --source=/repo --redact --no-banner --verbose
+
+  semgrep:
+    name: Semgrep SAST
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      security-events: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Semgrep
+        run: pip install --quiet semgrep
+      - name: Run Semgrep (report-only)
+        run: |
+          EXTRA=""
+          [ -f .semgrep.yml ] && EXTRA="--config .semgrep.yml"
+          semgrep scan --config auto $EXTRA --sarif --output semgrep.sarif . || true
+      - name: Upload SARIF to code scanning (public repos)
+        if: ${{ inputs.public }}
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: semgrep.sarif
+          category: semgrep
+      - name: Upload SARIF as artifact (private repos)
+        if: ${{ !inputs.public }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: semgrep-sarif
+          path: semgrep.sarif
+          if-no-files-found: ignore
+
+  codeql:
+    name: CodeQL Analysis
+    # CodeQL code scanning needs GitHub Advanced Security — free on public repos,
+    # paid on private. Only run where it works for free.
+    if: ${{ inputs.public }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      security-events: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3
+        with:
+          languages: javascript-typescript
+          queries: security-extended
+      - name: Autobuild
+        uses: github/codeql-action/autobuild@v3
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v3
+        with:
+          category: codeql
