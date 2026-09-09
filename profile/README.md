@@ -46,7 +46,7 @@ The ambition is simple: give an engineering system an objective, let it explore 
 Our most-starred public project tackles a fundamental problem: agents need to use services, but real credentials shouldn’t have to live in their context. Phantom combines scoped placeholders, a local proxy, and MCP tools to handle supported API work while keeping real credentials out of agent context.
 
 <p>
-  <a href="https://phm.dev"><img src="https://raw.githubusercontent.com/ashlrai/phantom-secrets/main/apps/web/public/og-image.png" alt="Phantom’s secrets architecture: agent-facing placeholders, a local proxy, and a protected vault. Product illustration." width="100%"></a>
+  <a href="https://phm.dev"><img src="https://raw.githubusercontent.com/ashlrai/phantom-secrets/main/apps/web/public/og-image.png" alt="Phantom’s blue ghost mascot beside the message: Delegate supported API work to AI. A terminal preview shows phantom init and phantom exec." width="100%"></a>
 </p>
 
 **[Explore Phantom](https://phm.dev)** · [Source](https://github.com/ashlrai/phantom-secrets) · [Documentation](https://github.com/ashlrai/phantom-secrets/blob/main/docs/README.md)
@@ -55,13 +55,15 @@ Our most-starred public project tackles a fundamental problem: agents need to us
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td valign="top">
 <h3><a href="https://github.com/ashlrai/ashlr-stack">Ashlr Stack</a></h3>
 <p><b>Bring your infrastructure into the conversation.</b></p>
 <p>Provision services, connect project configuration, and work with your development stack through a CLI and MCP tools. Phantom handles credentials.</p>
 <p><a href="https://stack.ashlr.ai">Explore Stack</a> · <a href="https://github.com/ashlrai/ashlr-stack">Source &amp; setup</a></p>
 </td>
-<td width="50%" valign="top">
+</tr>
+<tr>
+<td valign="top">
 <h3><a href="https://measurably.dev">Measurably</a></h3>
 <p><b>See what your prompt is missing.</b></p>
 <p>Local prompt scoring and coaching across six dimensions. Understand the structure of your request, improve it, and take a clearer brief to your AI.</p>
@@ -69,13 +71,15 @@ Our most-starred public project tackles a fundamental problem: agents need to us
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td valign="top">
 <h3><a href="https://github.com/ashlrai/ashlrcode">ashlrcode</a></h3>
 <p><b>Your terminal. Your models. Your workflow.</b></p>
 <p>A multi-provider coding agent with MCP tools, persistent sessions, project memory, and parallel agents. An execution tool you can inspect and extend.</p>
 <p><a href="https://github.com/ashlrai/ashlrcode">Explore the agent</a></p>
 </td>
-<td width="50%" valign="top">
+</tr>
+<tr>
+<td valign="top">
 <h3><a href="https://github.com/ashlrai/ashlr-plugin">Ashlr Plugin</a></h3>
 <p><b>Make every context window work harder.</b></p>
 <p>Token-efficient tools for Claude Code workflows, backed by reusable reading, searching, editing, and context-management primitives.</p>
