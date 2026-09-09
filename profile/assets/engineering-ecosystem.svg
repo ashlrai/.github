@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="720" viewBox="0 0 1000 720" role="img" aria-labelledby="title desc">
+  <title id="title">The Ashlr engineering ecosystem</title>
+  <desc id="desc">Ashlr Hub is the flagship. Phantom protects credentials, Stack connects services, ashlrcode brings agents to the terminal, and Measurably improves prompts. Independently useful tools with a shared engineering direction.</desc>
+  <defs>
+    <pattern id="masonry" width="160" height="80" patternUnits="userSpaceOnUse">
+      <path d="M0 0H160M0 40H160M80 0V40M0 40V80M160 40V80" fill="none" stroke="#304355" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="hub" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2563eb"/><stop offset="1" stop-color="#1746aa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="720" rx="20" fill="#142536"/>
+  <rect width="1000" height="720" rx="20" fill="url(#masonry)" opacity=".48"/>
+  <g fill="none" stroke="#7890ab" stroke-width="2">
+    <path d="M500 310V356M272 356H728M272 356V393M728 356V393"/>
+    <path d="M500 356V572M462 572H538" stroke-dasharray="6 8"/>
+  </g>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="56" y="64" fill="#d3deea" font-size="24">The Ashlr ecosystem</text>
+    <text x="944" y="64" text-anchor="end" fill="#8ca2b8" font-size="22">Digital Masonry.</text>
+    <rect x="128" y="105" width="744" height="208" rx="14" fill="url(#hub)"/>
+    <path d="M128 279H872" stroke="#7299ef" opacity=".35"/>
+    <text x="168" y="153" fill="#d5e2ff" font-size="25">Our flagship</text>
+    <text x="168" y="218" fill="#ffffff" font-size="62" font-weight="700" letter-spacing="-2">Ashlr Hub</text>
+    <text x="168" y="258" fill="#e2eaff" font-size="25">The command center for agentic engineering.</text>
+    <text x="168" y="301" fill="#d5e2ff" font-size="20">Projects / Agents / Tools / Evidence</text>
+    <g fill="#dbe6ff">
+      <rect x="724" y="149" width="104" height="16" rx="8"/>
+      <rect x="738" y="177" width="90" height="16" rx="8" opacity=".7"/>
+      <rect x="752" y="205" width="76" height="16" rx="8" opacity=".4"/>
+    </g>
+    <rect x="56" y="393" width="406" height="112" rx="10" fill="#1c3247" stroke="#446583"/>
+    <path d="M56 414V484" stroke="#7babff" stroke-width="5"/>
+    <text x="84" y="440" fill="#ffffff" font-size="34" font-weight="600">Phantom</text>
+    <text x="84" y="478" fill="#b9cbe0" font-size="25">Protect the credentials.</text>
+    <rect x="538" y="393" width="406" height="112" rx="10" fill="#1c3247" stroke="#446583"/>
+    <path d="M538 414V484" stroke="#f5883e" stroke-width="5"/>
+    <text x="566" y="440" fill="#ffffff" font-size="34" font-weight="600">Stack</text>
+    <text x="566" y="478" fill="#b9cbe0" font-size="25">Connect the services.</text>
+    <rect x="56" y="532" width="406" height="112" rx="10" fill="#1c3247" stroke="#446583"/>
+    <path d="M56 553V623" stroke="#a89cff" stroke-width="5"/>
+    <text x="84" y="579" fill="#ffffff" font-size="34" font-weight="600">ashlrcode</text>
+    <text x="84" y="617" fill="#b9cbe0" font-size="25">Work from the terminal.</text>
+    <rect x="538" y="532" width="406" height="112" rx="10" fill="#1c3247" stroke="#446583"/>
+    <path d="M538 553V623" stroke="#2dd4bf" stroke-width="5"/>
+    <text x="566" y="579" fill="#ffffff" font-size="34" font-weight="600">Measurably</text>
+    <text x="566" y="617" fill="#b9cbe0" font-size="25">Improve the prompt.</text>
+    <text x="500" y="687" text-anchor="middle" fill="#a7bbd0" font-size="23">Independent tools. A shared engineering direction.</text>
+  </g>
+</svg>
