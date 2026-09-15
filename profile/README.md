@@ -94,7 +94,7 @@ There’s more in the workshop: [WebFetch](https://github.com/ashlrai/webfetch) 
 
 ## Digital Masonry, in the real world.
 
-We build these tools because we build software for people. Ashlr works with enterprises, funded startups, and government contractors on custom applications, systems integration, and practical AI implementation. Product work and client work inform each other.
+Ashlr.AI is a US-based forward-deployed engineering company for enterprise software and production AI. We work alongside enterprises, government contractors, and product companies—including funded startups—to understand the operation, integrate complex systems, and carry software through production with accountable delivery, explicit controls, and client ownership. Product work and client work inform each other: the tools we build sharpen the systems we deliver, and real operating problems shape our product direction.
 
 Our product portfolio also includes [Ashlr BI](https://ashlrbi.com), [Koala Finance](https://trykoala.ai), [Triage](https://trytriage.ai), and [Probe](https://tryprobe.io). [Explore the portfolio](https://ashlr.ai/products) or [see selected client work](https://ashlr.ai/work).
 
