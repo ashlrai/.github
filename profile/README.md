@@ -21,13 +21,13 @@
 <p align="center">
   <img src="https://img.shields.io/badge/based_in-Virginia,_USA-1A2B3C?style=flat" alt="Based in Virginia, USA">
   <img src="https://img.shields.io/badge/engineering-US--based-2563EB?style=flat" alt="US-based engineering">
-  <img src="https://img.shields.io/badge/open_source-MIT-2563EB?style=flat" alt="Open source under MIT">
+  <img src="https://img.shields.io/badge/open_source-MIT_unless_noted-2563EB?style=flat" alt="Open source, MIT unless noted">
 </p>
 
 ---
 
-The repositories here are the tools we build for ourselves, released under MIT because the same
-problems show up in every engagement. Product work and client work inform each other: the tools
+The repositories here are the tools we build for ourselves, released as open source (MIT unless
+noted) because the same problems show up in every engagement. Product work and client work inform each other: the tools
 sharpen the systems we deliver, and real operating problems shape what we build next.
 
 ## Phantom. Give agents access. Keep your keys.
@@ -76,16 +76,17 @@ available.</sub>
 
 ## Engineering beyond the prompt.
 
-The rest of the system, one useful tool at a time. Everything below is public and MIT-licensed.
+The rest of the system, one useful tool at a time. Everything below is public and MIT unless noted.
 
 | Tool | What it does | Where |
 |---|---|---|
 | **Morphkit** | From React to a native iOS project. Turn a React and TypeScript app into a SwiftUI project, with the tooling to plan the conversion and finish the generated app. | [`morphkit`](https://github.com/ashlrai/morphkit) · [morphkit.dev](https://morphkit.dev) |
 | **Ashlr Plugin** | Every tool call, line-itemized. Token-efficient read, search, edit, and inspect tools for Claude Code and Codex, with visible context usage. | [`ashlr-plugin`](https://github.com/ashlrai/ashlr-plugin) · [plugin.ashlr.ai](https://plugin.ashlr.ai) |
-| **BinShield** | Your npm supply chain, x-rayed. Inspect install scripts and native package binaries for risky behavior before they land in your build — as a CLI or a CI policy gate. | [`binshield`](https://github.com/ashlrai/binshield) · [binshield.dev](https://binshield.dev) |
+| **BinShield** | Your npm supply chain, x-rayed. Inspect install scripts and native package binaries for risky behavior before they land in your build — as a CI policy gate (GitHub Action), with a CLI coming soon. | [`binshield`](https://github.com/ashlrai/binshield) · [binshield.dev](https://binshield.dev) |
 | **WebFetch** | Images your agent can actually ship. Federated image search with license-aware ranking and source metadata, over MCP, CLI, and HTTP. | [`webfetch`](https://github.com/ashlrai/webfetch) · [getwebfetch.com](https://getwebfetch.com) |
 | **Ashlr Stack** | Bring your infrastructure into the conversation. Provision services and work with your development stack through a CLI and MCP tools. Phantom handles the credentials. | [`ashlr-stack`](https://github.com/ashlrai/ashlr-stack) · [stack.ashlr.ai](https://stack.ashlr.ai) |
 | **ashlrcode** | Your terminal. Your models. Your workflow. A multi-provider coding agent with MCP tools, saved sessions, plan mode, and sub-agent coordination. | [`ashlrcode`](https://github.com/ashlrai/ashlrcode) · [ashlr.ai/ashlrcode](https://ashlr.ai/ashlrcode) |
+| **Runbook** | A control layer for financial agents. A research prototype that checks proposed agent actions against a written risk charter and keeps a hash-chained decision ledger. It holds no credentials and places no orders. **Apache-2.0.** | [`runbook-control-plane`](https://github.com/ashlrai/runbook-control-plane) · [runbook.ashlr.ai](https://runbook.ashlr.ai) |
 
 **Also in the open:** [`ashlr-core-efficiency`](https://github.com/ashlrai/ashlr-core-efficiency)
 (the token-efficiency primitives behind the plugin),
