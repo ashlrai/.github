@@ -47,32 +47,30 @@ context. It works with Claude Code, Cursor, Windsurf, and Codex.
 
 **[Explore Phantom](https://phm.dev)** · [Source](https://github.com/ashlrai/phantom-secrets) · [Documentation](https://github.com/ashlrai/phantom-secrets/blob/main/docs/README.md)
 
-## Ashlr Hub is where we're going.
+## Ashlr Verse. One console for the engineering fleet.
 
-**Our flagship: a local command center for agentic engineering.** Bring projects, coding agents, MCP
-tools, and experiment evidence into one workflow. Hub is the front door to the Ashlr ecosystem—and
-the local kernel behind our Ashlrverse work.
+**Our flagship is shipping as [Ashlr Verse](https://verse.ashlr.ai).** Bring coding-agent
+accounts, local models, a Leader and a guarded fleet into one local workbench. The CLI is
+[published on npm](https://www.npmjs.com/package/@ashlr/hub); the current release also has
+a locally signed Apple silicon desktop DMG.
 
 <p align="center">
-  <a href="https://github.com/ashlrai/ashlr-hub">
-    <img src="./assets/engineering-ecosystem.svg" alt="Ashlr Hub is our flagship command center. Phantom protects credentials, Stack connects services, ashlrcode brings agents to the terminal, and Measurably improves prompts. Independent tools with a shared engineering direction." width="100%">
+  <a href="https://verse.ashlr.ai">
+    <img src="https://raw.githubusercontent.com/ashlrai/ashlr-hub/master/docs/images/verse-console.png" alt="Ashlr Verse operator console with a project sidebar, agent seats and their live usage windows." width="100%">
   </a>
 </p>
 
-The ambition is simple: give an engineering system an objective, let it explore competing
-approaches, evaluate what it produces, and learn from the results. We're building toward that
-through local tools, inspectable evidence, and deliberate human control.
+Verse is a place to operate coding agents and review their work. Resident automation has
+separate setup and signed authority. Source experiments and the larger self-improving
+vision have their own evidence boundaries in the documentation.
 
-- **A place to operate.** A CLI and dashboard for projects, agent workflows, and tools.
-- **A place to experiment.** Ashlrverse source tooling for generating, evaluating, and retaining
-  competing code variants.
-- **A place to connect.** Independently useful projects, brought into a shared engineering workflow.
+- **Operate.** Open the Verse console on your Mac or from its protected phone gateway.
+- **Direct.** Work with enrolled agent seats and local models in one project context.
+- **Govern.** Inspect proposals and require signed scope before resident actions.
 
-**[Explore Hub](https://github.com/ashlrai/ashlr-hub)** · [Quickstart](https://github.com/ashlrai/ashlr-hub/blob/master/docs/QUICKSTART.md) · [Ashlrverse guide](https://github.com/ashlrai/ashlr-hub/blob/master/docs/ASHLR-UNIVERSE.md) · [Roadmap and north star](https://github.com/ashlrai/ashlr-hub/blob/master/docs/NORTH-STAR.md)
+**[Explore Verse](https://verse.ashlr.ai)** · [Source](https://github.com/ashlrai/ashlr-hub) · [Quickstart](https://github.com/ashlrai/ashlr-hub/blob/master/docs/QUICKSTART.md) · [Six-tool ecosystem and star history](https://verse.ashlr.ai/ecosystem)
 
-<sub>Hub's guides distinguish released capabilities, source experiments, and the larger roadmap. The
-ecosystem map above describes our direction; it does not imply every integration is already
-available.</sub>
+<sub>Stars on the ecosystem page are a dated sum of six repository counts, not unique people or product adoption.</sub>
 
 ## Engineering beyond the prompt.
 
@@ -144,33 +142,8 @@ Issues and pull requests are welcome on every public repository above.
 <!--
 PINNED REPOSITORY STRATEGY
 ==========================
-Pin exactly six, in this order. GitHub renders pins in the order you select them, and the first
-three carry the most weight on desktop.
-
-1. phantom-secrets  — Most-starred public repo in the org (16, verified Sep 22 2026) and the
-                      clearest one-sentence problem ("stop agents leaking your API keys"). Best
-                      chance of a visitor understanding what we do within five seconds.
-2. ashlr-hub        — The flagship and the statement of direction. Tells a returning visitor where
-                      the org is going, not just what it has shipped.
-3. binshield        — Supply-chain security. This is the repo that lands with the enterprise and
-                      government-contractor audience the landing page is aimed at, and it doubles as
-                      a credibility signal for anyone evaluating us on security.
-4. morphkit         — Tied for second-most-starred (5, level with ashlrcode) and the most visually
-                      distinctive project (React → native SwiftUI). Good breadth signal: we are not
-                      only an agent-tooling shop.
-5. ashlr-plugin     — Proof that we ship inside the tools working engineers use daily (Claude Code,
-                      Codex). Strong developer-audience resonance.
-6. webfetch         — Rounds out the agent-infrastructure story (credentials → supply chain →
-                      assets) and demonstrates range across languages and surfaces.
-
-Reasoning for the ordering: lead with proof (stars + sharpest pitch), then direction (Hub), then the
-enterprise-credibility repo, then breadth. Deliberately not pinned: homebrew-* taps (infrastructure,
-no narrative), the .github repo itself (meta), and research repos such as codedreamer,
-mechanistic-interpretability, and creatures — interesting, but they dilute a commercial first
-impression. Revisit the pins whenever a repo's star count meaningfully overtakes another's, or when
-Hub reaches a public milestone worth leading with.
-
-STAR COUNTS AT LAST EDIT (gh repo list ashlrai, Sep 22 2026)
-phantom-secrets 16 · morphkit 5 · ashlrcode 5 · ashlr-hub 3 · ashlr-plugin 3 · binshield 3 ·
-webfetch 3 · ashlr-md 3 · creatures 3 · ashlr-stack 2 · ashlr-core-efficiency 2 · lexicon 1
+Review GitHub's six organization pins against the current product story: Verse, Phantom,
+AshlrCode, Morphkit, Locus and Lexicon. The profile and https://verse.ashlr.ai/ecosystem
+link to these six; the page holds the dated counts. Pin changes happen separately in the
+GitHub organization UI.
 -->
