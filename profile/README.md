@@ -30,47 +30,52 @@ The repositories here are the tools we build for ourselves, released as open sou
 noted) because the same problems show up in every engagement. Product work and client work inform each other: the tools
 sharpen the systems we deliver, and real operating problems shape what we build next.
 
-## Phantom. Give agents access. Keep your keys.
+## Phantom. One workbench for the engineering fleet.
+
+**[Phantom](https://phm.dev) is our engineering agent workbench, formerly Ashlr Verse.** Bring
+eligible coding-agent accounts, local models, a Leader and a guarded fleet into one local
+workbench. The canonical CLI is [@ashlr/phantom on npm](https://www.npmjs.com/package/@ashlr/phantom).
+The [latest release](https://github.com/ashlrai/phantom/releases/latest) includes a locally signed
+Apple silicon app archive and its qualified update metadata; consult the
+[desktop installation guide](https://github.com/ashlrai/phantom/blob/master/desktop/README.md#install)
+before installing the app.
+
+<p align="center">
+  <a href="https://phm.dev">
+    <img src="https://raw.githubusercontent.com/ashlrai/phantom/master/docs/images/verse-work-with-me-3.24.3-demo.jpg" alt="Phantom 3.24.3 browser workbench with labeled Demo accounts and a sample conversation." width="100%">
+  </a>
+</p>
+
+<sub>Compiled 3.24.3 interface with sample data; no provider or fleet ran in this capture.</sub>
+
+Phantom is a place to operate coding agents and review their work. Resident automation has
+separate setup and signed authority. Source experiments and the larger self-improving
+vision have their own evidence boundaries in the documentation.
+
+- **Operate.** Open the Phantom console on your Mac or from its protected phone gateway.
+- **Direct.** Work with enrolled agent seats and local models in one project context.
+- **Govern.** Inspect proposals and require signed scope before resident actions.
+
+**[Explore Phantom](https://phm.dev)** · [Source](https://github.com/ashlrai/phantom) · [Quickstart](https://github.com/ashlrai/phantom/blob/master/docs/QUICKSTART.md) · [Six-tool ecosystem and star history](https://verse.ashlr.ai/ecosystem)
+
+<sub>Stars on the ecosystem page are a dated sum of six repository counts, not unique people or product adoption.</sub>
+
+## Phantom Secrets. Give agents access. Keep your keys.
 
 <p>
-  <a href="https://github.com/ashlrai/phantom-secrets"><img src="https://img.shields.io/github/stars/ashlrai/phantom-secrets?style=flat&amp;label=GitHub%20stars&amp;color=2563eb" alt="Phantom GitHub stars"></a>
+  <a href="https://github.com/ashlrai/phantom-secrets"><img src="https://img.shields.io/github/stars/ashlrai/phantom-secrets?style=flat&amp;label=GitHub%20stars&amp;color=2563eb" alt="Phantom Secrets GitHub stars"></a>
 </p>
 
 Our most-starred public project tackles a fundamental problem: agents need to use services, but real
-credentials shouldn't have to live in their context. Phantom combines scoped `phm_` placeholders, a
+credentials shouldn't have to live in their context. Phantom Secrets combines scoped `phm_` placeholders, a
 local proxy, and MCP tools to handle supported API work while keeping real credentials out of agent
 context. It works with Claude Code, Cursor, Windsurf, and Codex.
 
 <p>
-  <a href="https://phm.dev"><img src="https://raw.githubusercontent.com/ashlrai/phantom-secrets/main/apps/web/public/og-image.png" alt="Phantom's blue ghost mascot beside the message: Delegate supported API work to AI. A terminal preview shows phantom init and phantom exec." width="100%"></a>
+  <a href="https://phm.dev/secrets"><img src="https://raw.githubusercontent.com/ashlrai/phantom-secrets/main/apps/web/public/og-image.png" alt="Phantom Secrets mascot and terminal example for supported API work." width="100%"></a>
 </p>
 
-**[Explore Phantom](https://phm.dev)** · [Source](https://github.com/ashlrai/phantom-secrets) · [Documentation](https://github.com/ashlrai/phantom-secrets/blob/main/docs/README.md)
-
-## Ashlr Verse. One console for the engineering fleet.
-
-**Our flagship is shipping as [Ashlr Verse](https://verse.ashlr.ai).** Bring coding-agent
-accounts, local models, a Leader and a guarded fleet into one local workbench. The CLI is
-[published on npm](https://www.npmjs.com/package/@ashlr/hub); the current release also has
-a locally signed Apple silicon desktop DMG.
-
-<p align="center">
-  <a href="https://verse.ashlr.ai">
-    <img src="https://raw.githubusercontent.com/ashlrai/ashlr-hub/master/docs/images/verse-console.png" alt="Ashlr Verse operator console with a project sidebar, agent seats and their live usage windows." width="100%">
-  </a>
-</p>
-
-Verse is a place to operate coding agents and review their work. Resident automation has
-separate setup and signed authority. Source experiments and the larger self-improving
-vision have their own evidence boundaries in the documentation.
-
-- **Operate.** Open the Verse console on your Mac or from its protected phone gateway.
-- **Direct.** Work with enrolled agent seats and local models in one project context.
-- **Govern.** Inspect proposals and require signed scope before resident actions.
-
-**[Explore Verse](https://verse.ashlr.ai)** · [Source](https://github.com/ashlrai/ashlr-hub) · [Quickstart](https://github.com/ashlrai/ashlr-hub/blob/master/docs/QUICKSTART.md) · [Six-tool ecosystem and star history](https://verse.ashlr.ai/ecosystem)
-
-<sub>Stars on the ecosystem page are a dated sum of six repository counts, not unique people or product adoption.</sub>
+**[Explore Phantom Secrets](https://phm.dev/secrets)** · [Source](https://github.com/ashlrai/phantom-secrets) · [Documentation](https://github.com/ashlrai/phantom-secrets/blob/main/docs/README.md)
 
 ## Engineering beyond the prompt.
 
@@ -142,7 +147,7 @@ Issues and pull requests are welcome on every public repository above.
 <!--
 PINNED REPOSITORY STRATEGY
 ==========================
-Review GitHub's six organization pins against the current product story: Verse, Phantom,
+Review GitHub's six organization pins against the current product story: Phantom, Phantom Secrets,
 AshlrCode, Morphkit, Locus and Lexicon. The profile and https://verse.ashlr.ai/ecosystem
 link to these six; the page holds the dated counts. Pin changes happen separately in the
 GitHub organization UI.
