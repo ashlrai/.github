@@ -32,6 +32,12 @@ sharpen the systems we deliver, and real operating problems shape what we build 
 
 ## Phantom. One workbench for the engineering fleet.
 
+<p>
+  <a href="https://phm.dev/#eco-stats"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fashlrai%2Fphantom%2Fecosystem-stats%2Fstars.json&style=flat" alt="Phantom ecosystem stars"></a>
+  <a href="https://phm.dev/#eco-stats"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fashlrai%2Fphantom%2Fecosystem-stats%2Fcommits.json&style=flat" alt="Phantom ecosystem commits"></a>
+  <a href="https://github.com/ashlrai/phantom/blob/master/ecosystem/repos.json"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fashlrai%2Fphantom%2Fecosystem-stats%2Frepos.json&style=flat" alt="Phantom ecosystem repos"></a>
+</p>
+
 **[Phantom](https://phm.dev) is our engineering agent workbench, formerly Ashlr Verse.** Bring
 eligible coding-agent accounts, local models, a Leader and a guarded fleet into one local
 workbench. The canonical CLI is [@ashlr/phantom on npm](https://www.npmjs.com/package/@ashlr/phantom).
