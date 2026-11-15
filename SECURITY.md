@@ -9,7 +9,7 @@ This is the default security policy for public repositories in the
 Please **do not** open a public issue, discussion, or pull request for a
 suspected vulnerability.
 
-Email **security@ashlr.ai** with:
+Email **support@ashlr.ai** with:
 
 - the repository and version or commit you tested,
 - a description of the issue and its impact,
@@ -28,3 +28,4 @@ reasonable window to ship a fix before public disclosure.
 
 Unless a repository states otherwise, only the latest release (or the latest
 commit on the default branch, for unreleased projects) receives security fixes.
+
