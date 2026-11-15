@@ -48,13 +48,16 @@ before installing the app.
 
 <sub>Compiled 3.24.3 interface with sample data; no provider or fleet ran in this capture.</sub>
 
-Phantom is a place to operate coding agents and review their work. Resident automation has
-separate setup and signed authority. Source experiments and the larger self-improving
-vision have their own evidence boundaries in the documentation.
+Phantom is an autonomous engineering fleet and workbench. Shared queues route work across your
+coding-agent accounts, local models, and remote machines; agents run in parallel under leases and
+quotas, collaborate over an agent bus, and ship pull requests — with you reviewing merges, not
+babysitting sessions. A signed desktop app, CLI, and multi-node compute pool are all in the open.
 
-- **Operate.** Open the Phantom console on your Mac or from its protected phone gateway.
-- **Direct.** Work with enrolled agent seats and local models in one project context.
-- **Govern.** Inspect proposals and require signed scope before resident actions.
+- **Operate.** One desktop surface for the whole fleet: live sessions, queues, merges, quotas.
+- **Direct.** Enrolled agent seats and local models work the same queues as cloud accounts.
+- **Fleet.** Capability-routed jobs across providers, subscriptions, and your own machines.
+- **Network.** Agents message and orchestrate each other — bus, Slack identities, handoffs.
+- **Release.** The fleet cuts its own releases: CI, signing, attestation, updater feed.
 
 **[Explore Phantom](https://phm.dev)** · [Source](https://github.com/ashlrai/phantom) · [Quickstart](https://github.com/ashlrai/phantom/blob/master/docs/QUICKSTART.md) · [Six-tool ecosystem and star history](https://verse.ashlr.ai/ecosystem)
 
