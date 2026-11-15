@@ -20,12 +20,11 @@ Email **support@ashlr.ai** with:
 If the repository has GitHub private vulnerability reporting enabled
 (Security → *Report a vulnerability*), you may use that instead.
 
-We aim to acknowledge reports within 3 business days and will keep you updated
-while we investigate and fix. Good-faith research is welcome; please give us a
-reasonable window to ship a fix before public disclosure.
+Good-faith research is welcome; please give maintainers a reasonable window
+to investigate before public disclosure.
 
-## Supported versions
+## Repository-specific support
 
-Unless a repository states otherwise, only the latest release (or the latest
-commit on the default branch, for unreleased projects) receives security fixes.
-
+Consult the repository's own policy and release documentation for its supported
+versions. This default reporting guide does not establish a response deadline
+or support commitment.
